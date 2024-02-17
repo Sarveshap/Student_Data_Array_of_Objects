@@ -1,0 +1,23 @@
+class Student{
+	private String name;
+	private int prn;
+	private String dob;
+	public void setName(String name){
+	this.name=name;
+}
+public String getName();{
+return name;
+}
+public void setPRN(int prn){
+	this.prn=prn;
+}
+public int getPRN(){
+	return prn;
+}
+public void setDOB(String dob){
+	this.dob=dob;
+}
+public String getDOB();{
+return dob;
+}
+}
